@@ -51,7 +51,16 @@ git add -A
 git commit -m "UPDATE"
 
 git pull origin master
-git push origin master   
+git push origin master
+
+////////////////CREATE A BRANCH FOR DESIRED FEATURE////////////////////////////
+git branch calc-divide
+git checkout calc-divide    
+git branch 
+
+///////////////AFTER COMMIT PUSH BRANCH TO REMOTE/////////////////////
+git push -u origin calc-divide
+git branch -a  
 
 
 
