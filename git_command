@@ -63,6 +63,14 @@ git push -u origin calc-divide
 git branch -a  
 
 
+////////////////////////////////////// TUTOR///////////////
+git init
+git add .
+git commit -m "name"
+git remote add origin http://
+git push -u origin master
+
+
 
 
 
