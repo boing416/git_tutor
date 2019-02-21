@@ -53,11 +53,15 @@ git commit -m "UPDATE"
 git pull origin master
 git push origin master
 
-////////////////CREATE A BRANCH FOR DESIRED FEATURE////////////////////////////
+////////////////CREATE A BRANCH FOR DESIRED FEATURE///////MERGE/////////////////////
 git branch calc-divide
 git checkout calc-divide    
 git branch 
+git log --graph -all --decorate 
+git log --graph -all --decorate --oneline 
 
+git checkout master
+git merge calc-divide 
 ///////////////AFTER COMMIT PUSH BRANCH TO REMOTE/////////////////////
 git push -u origin calc-divide
 git branch -a  
