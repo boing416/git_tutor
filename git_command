@@ -76,8 +76,11 @@ git commit -m "name"
 git remote add origin http://
 git push -u origin master
 
-
-
+//////////////////////////////change version/////////////////////////////
+gitk --all&     (UI Interface)
+ctrl + insert (copy commit ID) 
+shift + insert (past commit ID) 
+git checkout commit-number (switch version)
 
 
 
