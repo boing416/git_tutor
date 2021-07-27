@@ -83,6 +83,10 @@ shift + insert (past commit ID)
 git checkout commit-number (switch version)
 
 
+//////////////////////////////return old version file//////////////////
+git checkout path-to-file
+
+
 
 
 
