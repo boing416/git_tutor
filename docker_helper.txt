@@ -1,0 +1,19 @@
+Docker build .
+Docker build -t appname .
+Docker build -t appname:tagname .
+Docker run -d -p 3000:80 —env-file ./config/.env —rm —name app name app name:env
+Docker run -d -p 3000:3000 -v logs:/app/data —rm —name logsapp logsapp:volumes 
+Docker image ls
+Docker ps —help
+Docker run -it node
+Docker rm id_container
+Docker container prune
+Docker run -p 3000:3000 image_id
+Docker run -d -p 3000:3000 image_id
+Docker attach container_id
+Docker logs container_id
+Docker run -d -p 3000:3000 —name cont_name image_id
+Docker run -d -p 3000:3000 —name cont_name —rm image_id
+Docker rm container_id
+Docker rmi image_id
+Docker image prune
